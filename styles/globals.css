@@ -1,0 +1,124 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+#hnmain {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #f6f6ef;
+}
+
+.hnname {
+  color: #000000;
+}
+
+.pagetop {
+  color: #000000;
+}
+
+td.bgcolor-header {
+  background-color: #ff6600;
+}
+
+#pagespace {
+  height: 10px;
+}
+
+.table-content {
+  margin: 20px 0;
+}
+
+.athing {
+  margin-bottom: 20px;
+}
+
+.votearrow {
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  background-image: url("https://news.ycombinator.com/triangle.svg"), linear-gradient(transparent, transparent);
+}
+
+.titleline {
+  display: flex;
+  align-items: center;
+}
+
+.titleline a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.sitestr {
+  color: #828282;
+}
+
+.footer-img {
+  height: 10px;
+  width: 0;
+}
+
+.morelink {
+  color: #828282;
+  text-decoration: underline;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 3599px) {
+  body {
+    font-size: 12px; 
+  }
+
+  #hnmain {
+    width: 90%;
+  }
+
+  td.bgcolor-header {
+    background-color: #ff9900;
+  }
+
+  #pagespace {
+    height: 5px; 
+  }
+
+  .table-content {
+    margin: 10px 0; 
+  }
+
+  .athing {
+    margin-bottom: 10px; 
+  }
+
+  .votearrow {
+    width: 15px; 
+    height: 15px; 
+    background-size: 15px; 
+  }
+
+  .titleline a {
+    color: #333333; 
+  }
+
+  .sitestr {
+    color: #555555;
+  }
+
+  .footer-img {
+    height: 5px; 
+    width: 0; 
+  }
+  .morelink {
+    color: #555555; 
+    text-decoration: none;
+  }
+}
