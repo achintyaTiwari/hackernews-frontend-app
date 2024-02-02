@@ -29,7 +29,7 @@ project-root/
    Ensure your backend application is hosted on port 3000.
 
 3. **Configure Frontend Application:**
-   Open `pages/api/index.ts` and configure your API endpoints accordingly.
+   Open `pages/index.ts` and configure your API endpoints accordingly.
 
 4. **Run Frontend Application:**
    ```bash
